@@ -1,0 +1,17 @@
+{
+  "name": "trillo",
+  "version": "1.0.0",
+  "description": "Trillo app",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass sass/main.scss css/style.css -w",
+    "devserver": "live-server"
+  },
+  "author": "Rokas",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "postcss-cli": "^11.0.1",
+    "sass": "^1.89.0"
+  }
+}
